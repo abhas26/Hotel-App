@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradienthome"
+    android:backgroundTint="#6F000000"
+    android:backgroundTintMode="src_atop"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomePage"
+    tools:showIn="@layout/activity_home_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotelbuddy" />
+
+        <TextView
+            android:id="@+id/homepageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find your right hotel!"
+
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="-2dp"
+            android:background="#FF4F4F"
+            android:textSize="25dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearest to you"
+            android:textColor="#000000"
+            android:background="#5EFFFFFF"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5EFFFFFF"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/residency"
+                    android:layout_marginRight="20dp"/>
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/residency1"
+                    android:layout_marginRight="20dp" />
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/residency2"
+                    android:layout_marginRight="20dp" />
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5EFFFFFF"
+        android:text="Hotel Residency"
+        android:textColor="#000000"
+
+        android:textSize="25dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best deals"
+            android:textColor="#000000"
+            android:background="#5EFFFFFF"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp" />
+
+
+        <HorizontalScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5EFFFFFF"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/mariott"
+                    android:layout_marginRight="20dp"/>
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/mariott1"
+                    android:layout_marginRight="20dp" />
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/mariott2"
+                    android:layout_marginRight="20dp" />
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courtyard By Mariott"
+            android:textColor="#000000"
+            android:background="#5EFFFFFF"
+
+            android:textSize="25dp" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Short on Budget?"
+            android:textColor="#000000"
+            android:background="#5EFFFFFF"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp" />
+
+
+        <HorizontalScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5EFFFFFF"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/tulsi"
+                    android:layout_marginRight="20dp"/>
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/tulsi1"
+                    android:layout_marginRight="20dp" />
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/tulsi2"
+                    android:layout_marginRight="20dp" />
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Tulsi"
+            android:textColor="#000000"
+            android:background="#5EFFFFFF"
+
+            android:textSize="25dp" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
