@@ -20,7 +20,9 @@ public class Welcome extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-        //Code here
+       userid = (TextView) findViewById(R.id.userid);
+        String s = getIntent().getStringExtra("username");
+        userid.setText(userid.getText()+" " + s+" !");
         new Handler().postDelayed(new Runnable() {
 
 
